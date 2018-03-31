@@ -1,11 +1,17 @@
 //Business logic
-function eatNum(ateNum) {
-  var yum = ['1', '0'];
-  var ateNum = ""
-  userInput.forEach(function() {
-    if (userInput = yum)
-  }
-}
+function convertNum(numbersArray) {
+  var numbersArray = userInput.split("");
+
+    if (numbersArray.match[/0/g]) {
+      return ('boop');
+    }
+    if (numbersArray.match[/1/g]) {
+      return ('beep');
+    }
+};
+
+
+
 
 
 
@@ -13,11 +19,12 @@ function eatNum(ateNum) {
 $(document).ready(function() {
   $("#user-input-form").submit(function(event) {
     event.preventDefault();
+    //Grab input from user form, set to variable
     var userInput=
-    $("#user-input").split("").val();
+    $("#user-input").val();
 
-    var ateNum =
-
-    $("#output").empty().text("#output");
+    $("#output").empty().append(convertNum());
   });
+
+console.log(numbersArray)
 });
