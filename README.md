@@ -13,7 +13,8 @@ _This is a program for week 3 Epicodus independent project, demonstrating my kno
 | Specification | Input | Output |
 | --- | --- | --- |
 | Determine if number has a 1 in it | 15, 1, 7 | Boop!, Boop!, 7. |
-| Determine if number has a 0 in it | 20, 10, 29 | Beep!, Boop! Beep!, 29 |
+| Determine if number has a 0 in it | 20, 10, 29 | "Beep!", "Boop! Beep!", 29 |
+| Determine if number is divisible by 3 | 3, 9, 11 | "Sorry Dave I can't do that", "Sorry Dave I can't do that", 11 |
 
 ## Setup/Installation Requirements
 
