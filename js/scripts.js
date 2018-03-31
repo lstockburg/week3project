@@ -1,7 +1,13 @@
 //Business logic
-function eatNum(array) {
-  var i = ('userInput')
-  return(i);
+function eatNum(ateNum) {
+  var yum = ['1', '0'];
+  var ateNum = ""
+  if (ateNum === yum('1')) {
+    return()
+
+  }
+
+  return();
 }
 // User Logic
 $(document).ready(function() {
@@ -10,12 +16,8 @@ $(document).ready(function() {
     var userInput=
     $("#user-input").val();
 
-    var numArray =
-    userInput.split("").push();
-    $("#output").empty().text();
-
-
+    var ateNum =
+    userInput.split('');
+    $("#output").empty().text("#output");
   });
-  console.log()
-  debugger
 });
