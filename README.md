@@ -8,12 +8,17 @@
 
 _This is a program for week 3 Epicodus independent project, demonstrating my knowledge of javascript arrays and looping_
 
+## Specifications
+
+| Specification | Input | Output |
+| --- | --- | --- |
+| Determine if number has a 1 in it | 15, 1, 7 | Boop!, Boop!, 7. |
+| Determine if number has a 0 in it | 20, 10, 29 | Beep!, Boop! Beep!, 29 |
+
 ## Setup/Installation Requirements
 
 * _Open in a web browser_
 * _User your keyboard to input numbers_
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
 
 ### License
 
