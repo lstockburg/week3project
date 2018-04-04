@@ -1,3 +1,13 @@
+body {
+  background-color: #95BF74;
+}
+.jumbotron {
+  background-color: #90B4ED;
+}
+input {
+  opacity: 0.5;
+}
 #output {
   display: none;
+  background-color: #659B5E;
 }

@@ -4,7 +4,7 @@ function eatNum(number) {
   for (var n = 0; n <= number; n++) {
     var inputArray = n.toString().split('');
     if (n % 3 === 0) {
-      inputArray.push("I'm sorry Dave");
+      inputArray.push("I'm sorry Dave, i can't do that.");
     } else if(inputArray.includes("1")) {
       inputArray.push(" Boop");
     } else if(inputArray.includes("0")) {
