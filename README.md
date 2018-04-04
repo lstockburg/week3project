@@ -17,9 +17,9 @@ _This is a program for week 3 Epicodus independent project, demonstrating my kno
 | Determine if number has a 0 in it | 20, 10, 29 | "Beep!", "Boop!", 29 |
 
 ## Setup/Installation Requirements
-* _clone this repository: https://github.com/lstockburg/week3project.git_
-* _Open in a web browser_
-* _User your keyboard to input numbers_
+* clone this repository: https://github.com/lstockburg/week3project.git_
+* Open in a web browser
+* User your keyboard to input numbers
 
 ### License
 

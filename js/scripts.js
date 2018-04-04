@@ -6,11 +6,11 @@ function eatNum(number) {
     if (n % 3 === 0) {
       inputArray.push("I'm sorry Dave, i can't do that.");
     } else if(inputArray.includes("1")) {
-      inputArray.push(" Boop");
+      inputArray.push(" Boop!");
     } else if(inputArray.includes("0")) {
-      inputArray.push(" Beep");
+      inputArray.push(" Beep!");
     } else {
-      inputArray.push("Mmm, " + n + (" is a tasty number! Thanks, human. Perhaps I will spare you after all!"));
+      inputArray.push("Mmm, " + n + (" is a tasty number! Thanks, human. Perhaps I will spare you after all! Have any more?"));
     }
   }
   return inputArray[inputArray.length-1];
@@ -25,6 +25,5 @@ $(document).ready(function() {
     $('#user-input-form')[0].reset();
     $("#output h2").text(eatNum(userInput));
     $("#output").show();
-
   });
 });
