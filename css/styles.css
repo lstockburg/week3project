@@ -3,11 +3,22 @@ body {
 }
 .jumbotron {
   background-color: #90B4ED;
+  margin: 10px;;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-width: 10px;
+  border-color: #659B5E
 }
 input {
-  opacity: 0.5;
+  opacity: 0.3;
 }
 #output {
   display: none;
   background-color: #659B5E;
+}
+button {
+  border: none;
+  color: white;
+  margin-top: 10px;
+  background-color: #283F3B
 }

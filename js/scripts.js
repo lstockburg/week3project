@@ -10,7 +10,7 @@ function eatNum(number) {
     } else if(inputArray.includes("0")) {
       inputArray.push(" Beep");
     } else {
-      inputArray.push(" " + n);
+      inputArray.push("Mmm, " + n + (" is a tasty number! Thanks, human. Perhaps I will spare you after all!"));
     }
   }
   return inputArray[inputArray.length-1];
@@ -22,6 +22,7 @@ $(document).ready(function() {
     var userInput =
     $("#user-input").val();
 
+    $('#user-input-form')[0].reset();
     $("#output h2").text(eatNum(userInput));
     $("#output").show();
 
