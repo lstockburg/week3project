@@ -1,20 +1,19 @@
 //Business logic
 function eatNum(number) {
-  var numArray = [];
+  var inputArray = [];
   for (var n = 0; n <= number; n++) {
-    var numArray = n.toString().split('');
+    var inputArray = n.toString().split('');
     if (n % 3 === 0) {
-      numArray.push("I'm sorry Dave");
-    } else if(numArray.includes("1")) {
-      numArray.push(" Boop");
-    } else if(numArray.includes("0")) {
-      numArray.push(" Beep");
+      inputArray.push("I'm sorry Dave");
+    } else if(inputArray.includes("1")) {
+      inputArray.push(" Boop");
+    } else if(inputArray.includes("0")) {
+      inputArray.push(" Beep");
     } else {
-      numArray.push(" " + n);
+      inputArray.push(" " + n);
     }
   }
-  alert(numArray)
-  return numArray;
+  return inputArray[inputArray.length-1];
 };
 // User Logic
 $(document).ready(function() {
@@ -26,6 +25,5 @@ $(document).ready(function() {
     $("#output h2").text(eatNum(userInput));
     $("#output").show();
 
-    debugger
   });
 });
